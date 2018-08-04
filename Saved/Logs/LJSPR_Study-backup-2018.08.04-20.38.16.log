@@ -1,0 +1,1188 @@
+﻿Log file open, 06/17/16 00:02:21
+LogInit:Display: Running engine for game: LJSPR_Study
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1123451947) SRandInit(-1123451945).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.080757
+LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 1.3.0
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.06.16-15.02.21:789][  0]LogInit: Selected Device Profile: [Windows]
+[2016.06.16-15.02.21:789][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.06.16-15.02.21:801][  0]LogInit: Computer: EMPRISE
+[2016.06.16-15.02.21:801][  0]LogInit: User: nightfall
+[2016.06.16-15.02.21:801][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.06.16-15.02.21:801][  0]LogInit: High frequency timer resolution =3.312784 MHz
+[2016.06.16-15.02.21:801][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.06.16-15.02.21:801][  0]LogMemory: Platform Memory Stats for Windows
+[2016.06.16-15.02.21:801][  0]LogMemory: Process Physical Memory: 314.09 MB used, 314.09 MB peak
+[2016.06.16-15.02.21:801][  0]LogMemory: Process Virtual Memory: 315.77 MB used, 315.77 MB peak
+[2016.06.16-15.02.21:801][  0]LogMemory: Physical Memory: 5345.79 MB used, 16268.42 MB total
+[2016.06.16-15.02.21:801][  0]LogMemory: Virtual Memory: 653.18 MB used, 134217728.00 MB total
+[2016.06.16-15.02.21:862][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.06.16-15.02.22:246][  0]LogD3D11RHI: D3D11 adapters:
+[2016.06.16-15.02.22:273][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660  ' (Feature Level 11_0)
+[2016.06.16-15.02.22:273][  0]LogD3D11RHI:       1988MB of dedicated video memory, 0MB of dedicated system memory, and 8134MB of shared system memory, 1 output[s]
+[2016.06.16-15.02.22:278][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics' (Feature Level 11_0)
+[2016.06.16-15.02.22:278][  0]LogD3D11RHI:       32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2016.06.16-15.02.22:280][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.06.16-15.02.22:280][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8134MB of shared system memory, 0 output[s]
+[2016.06.16-15.02.22:280][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.06.16-15.02.22:284][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.06.16-15.02.22:284][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660  
+[2016.06.16-15.02.22:284][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.06.16-15.02.22:284][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.06.16-15.02.22:284][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.06.16-15.02.22:300][  0]LogD3D11RHI: Async texture creation enabled
+[2016.06.16-15.02.22:317][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (D:/Unreal4Projects_LJS/LJSPR_Study/Intermediate/Shaders/WorkingDirectory/5516/).
+[2016.06.16-15.02.22:317][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/NIGHTF~1/AppData/Local/Temp/UnrealShaderWorkingDir/002E2BA840E0D9D665009ABC7F22BDB3/'.
+[2016.06.16-15.02.22:317][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.06.16-15.02.23:473][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.06.16-15.02.23:479][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.06.16-15.02.23:485][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.06.16-15.02.23:491][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.06.16-15.02.23:497][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.06.16-15.02.23:501][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.06.16-15.02.23:505][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.06.16-15.02.23:509][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.06.16-15.02.23:513][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.06.16-15.02.23:517][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.06.16-15.02.23:521][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.06.16-15.02.23:529][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.06.16-15.02.23:529][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.06.16-15.02.23:531][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.06.16-15.02.23:550][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.06.16-15.02.23:553][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.06.16-15.02.23:557][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.06.16-15.02.23:561][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.06.16-15.02.23:565][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.06.16-15.02.23:565][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.06.16-15.02.23:664][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.06.16-15.02.23:706][  0]LogDerivedDataCache: Loaded boot cache 0.04s 46MB C:/Users/nightfall/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.06.16-15.02.23:706][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/nightfall/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.06.16-15.02.23:706][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal4Projects_LJS/LJSPR_Study/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.06.16-15.02.23:706][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.06.16-15.02.23:706][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal4Projects_LJS/LJSPR_Study/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.06.16-15.02.23:706][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.06.16-15.02.23:719][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.06.16-15.02.23:732][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nightfall/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.06.16-15.02.23:946][  0]LogInit: Selected Device Profile: [Windows]
+[2016.06.16-15.02.23:947][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.06.16-15.02.23:991][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.06.16-15.02.24:113][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.06.16-15.02.24:113][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.06.16-15.02.24:113][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.06.16-15.02.24:354][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.06.16-15.02.24:354][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.06.16-15.02.24:354][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.06.16-15.02.24:363][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.06.16-15.02.24:488][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.06.16-15.02.24:488][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.06.16-15.02.24:617][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.06.16-15.02.24:617][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.06.16-15.02.24:617][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.06.16-15.02.24:617][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.06.16-15.02.24:617][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.06.16-15.02.24:617][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.06.16-15.02.25:302][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.06.16-15.02.25:428][  0]LogAssetRegistry: FAssetRegistry took 0.0213 seconds to start up
+[2016.06.16-15.02.25:592][  0]SourceControl: Info Source control is disabled
+[2016.06.16-15.02.25:594][  0]SourceControl: Info Source control is disabled
+[2016.06.16-15.02.25:604][  0]SourceControl: Info Source control is disabled
+[2016.06.16-15.02.25:615][  0]SourceControl: Info Source control is disabled
+[2016.06.16-15.02.26:142][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2016.06.16-15.02.26:225][  0]LogEngine: Initializing Engine...
+[2016.06.16-15.02.26:377][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.06.16-15.02.26:419][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.16-15.02.26:478][  0]LogInit: FAudioDevice initialized.
+[2016.06.16-15.02.26:502][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/nightfall/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.06.16-15.02.26:505][  0]LogInit: Texture streaming: Enabled
+[2016.06.16-15.02.26:542][  0]LogInit: Transaction tracking system initialized
+[2016.06.16-15.02.26:581][  0]BlueprintLog: New page: Editor Load
+[2016.06.16-15.02.26:698][  0]LocalizationService: Info Localization service is disabled
+[2016.06.16-15.02.26:801][  0]LogConsoleResponse:Display: 
+[2016.06.16-15.02.26:944][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.06.16-15.02.26:944][  0]LogCook:Display: Mobile HDR setting 1
+[2016.06.16-15.02.26:944][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.06.16-15.02.27:012][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal4Projects_LJS/LJSPR_Study/Content/' took 0.02s
+[2016.06.16-15.02.27:012][  0]SourceControl: Info Source control is disabled
+[2016.06.16-15.02.27:012][  0]Cmd: MAP LOAD FILE="D:/Unreal4Projects_LJS/LJSPR_Study/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.16-15.02.27:012][  0]LightingResults: New page: Lighting Build
+[2016.06.16-15.02.27:016][  0]MapCheck: New page: Map Check
+[2016.06.16-15.02.27:016][  0]LightingResults: New page: Lighting Build
+[2016.06.16-15.02.27:472][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.06.16-15.02.27:483][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.16-15.02.27:483][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.16-15.02.27:584][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 100.498ms to complete.
+[2016.06.16-15.02.27:584][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.572
+[2016.06.16-15.02.27:704][  0]LogCollectionManager: Loaded 0 collections in 0.002551 seconds
+[2016.06.16-15.02.27:747][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal4Projects_LJS/LJSPR_Study/Saved/Collections/' took 0.01s
+[2016.06.16-15.02.27:747][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal4Projects_LJS/LJSPR_Study/Content/Developers/nightfall/Collections/' took 0.01s
+[2016.06.16-15.02.27:747][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal4Projects_LJS/LJSPR_Study/Content/Collections/' took 0.01s
+[2016.06.16-15.02.27:747][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.06.16-15.02.27:754][  0]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 1979 classes and 343 folders.
+[2016.06.16-15.02.27:760][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.06.16-15.02.27:760][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.06.16-15.02.27:761][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 12 classes and 0 folders.
+[2016.06.16-15.02.27:769][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.06.16-15.02.27:779][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.06.16-15.02.27:833][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.06.16-15.02.27:838][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.06.16-15.02.27:910][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0007 seconds. Added 1 classes and 3 folders.
+[2016.06.16-15.02.27:916][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.06.16-15.02.27:921][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.06.16-15.02.27:949][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.06.16-15.02.27:949][  0]LogLoad: Full Startup: 7.03 seconds (BP compile: 0.11 seconds)
+[2016.06.16-15.02.27:949][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.06.16-15.02.27:949][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.06.16-15.02.27:977][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.06.16-15.02.27:978][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.06.16-15.02.27:980][  0]LogOcInput: OculusInput pre-init called
+[2016.06.16-15.02.27:985][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 1.3.0
+[2016.06.16-15.02.28:029][  0]LogContentStreaming: Texture pool size now 700 MB
+[2016.06.16-15.02.28:179][  0]LogRenderer: Reallocating scene render targets to support 976x524 (Frame:2).
+[2016.06.16-15.02.28:270][  1]LogAssetRegistry: Asset discovery search completed in 2.8641 seconds
+[2016.06.16-15.02.28:271][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.06.16-15.02.28:271][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000031 seconds (updated 0 objects)
+[2016.06.16-15.02.28:331][  2]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.06.16-15.05.14:097][757]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.06.16-15.05.14:097][757]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.16-15.05.14:102][757]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 17, 2016, 9:05:14 AM)
+[2016.06.16-15.05.14:102][757]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.06.16-15.05.14:128][757]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026244s)
+[2016.06.16-15.05.14:129][757]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.06.16-15.05.14:129][757]LogPlayLevel: PIE: World Init took: (0.000731s)
+[2016.06.16-15.05.14:130][757]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.027932s)
+[2016.06.16-15.05.14:184][757]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.16-15.05.14:210][757]LogInit: FAudioDevice initialized.
+[2016.06.16-15.05.14:292][757]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.16-15.05.14:297][757]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.06.17-00.05.14
+[2016.06.16-15.05.14:301][757]LogWorld: Bringing up level for play took: 0.007739
+[2016.06.16-15.05.14:322][757]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 9 classes and 0 folders.
+[2016.06.16-15.05.14:326][757]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.246
+[2016.06.16-15.05.14:326][757]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.06.16-15.05.57:908][980]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.06.16-15.05.57:970][980]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.06.16-15.07.33:220][460]LogAIModule: Creating AISystem for world TSSL_Arena
+[2016.06.16-15.07.33:233][460]Cmd: MAP LOAD FILE="D:/Unreal4Projects_LJS/LJSPR_Study/Content/LJS_Studies/TwinStickShooter/TSS_Levels/TSSL_Arena.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.06.16-15.07.33:233][460]LightingResults: New page: Lighting Build
+[2016.06.16-15.07.33:254][460]LoadErrors: New page: Loading map: TSSL_Arena.umap
+[2016.06.16-15.07.33:256][460]MapCheck: New page: Map Check
+[2016.06.16-15.07.33:256][460]LightingResults: New page: Lighting Build
+[2016.06.16-15.07.33:316][460]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.06.16-15.07.33:343][460]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.06.16-15.07.33:446][460]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 103.674ms to complete.
+[2016.06.16-15.07.33:447][460]LogFileHelpers: Loading map 'TSSL_Arena' took 0.216
+[2016.06.16-15.07.36:651][840]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.06.16-15.09.00:401][257]MapCheck: New page: Map Check
+[2016.06.16-15.09.00:438][257]Cmd: MAP REBUILD ALLVISIBLE
+[2016.06.16-15.09.00:439][257]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.06.16-15.09.00:513][257]LightingResults: New page: Lighting Build - Jun 17, 2016, 9:09:00 AM
+[2016.06.16-15.09.00:804][257]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.06.16-15.09.01:003][257]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.06.16-15.09.01:019][257]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.06.16-15.09.02:098][257]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.06.16-15.09.02:098][257]LogSwarmInterface: [TryOpenConnection] Local Process ID is 5516
+[2016.06.16-15.09.06:277][257]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.06.16-15.09.06:278][257]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.06.16-15.09.06:278][257]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.06.16-15.09.06:278][257]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.06.16-15.09.06:278][257]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.06.16-15.09.06:278][257]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.06.16-15.09.06:563][257]LogEditorBuildUtils: Build time 0:00:06
+[2016.06.16-15.09.08:044][259]LogSavePackage: Save=16.43ms
+[2016.06.16-15.09.08:044][259]LogSavePackage: Moving 'D:/Unreal4Projects_LJS/LJSPR_Study/Saved/TSSL_Arena182D8B7F4BAB2918F818619882FD28D6.tmp' to 'D:/Unreal4Projects_LJS/LJSPR_Study/Content/LJS_Studies/TwinStickShooter/TSS_Levels/TSSL_Arena.umap'
+[2016.06.16-15.09.08:047][259]LogSavePackage: Total save time: 20.60ms
+[2016.06.16-15.09.08:047][259]LogSavePackage:Display: Finished SavePackage D:/Unreal4Projects_LJS/LJSPR_Study/Content/LJS_Studies/TwinStickShooter/TSS_Levels/TSSL_Arena.umap
+[2016.06.16-15.09.08:072][259]LogFileHelpers: Saving map 'TSSL_Arena' took 0.164
+[2016.06.16-15.09.09:399][412]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.16-15.09.09:399][412]PIE: New page: PIE session: TSSL_Arena (Jun 17, 2016, 9:09:09 AM)
+[2016.06.16-15.09.09:399][412]LogPlayLevel: Creating play world package: /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena
+[2016.06.16-15.09.09:403][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003896s)
+[2016.06.16-15.09.09:403][412]LogAIModule: Creating AISystem for world TSSL_Arena
+[2016.06.16-15.09.09:403][412]LogPlayLevel: PIE: World Init took: (0.000619s)
+[2016.06.16-15.09.09:403][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LJS_Studies/TwinStickShooter/TSS_Levels/TSSL_Arena.TSSL_Arena to /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena.TSSL_Arena (0.004698s)
+[2016.06.16-15.09.09:445][412]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.16-15.09.09:472][412]LogInit: FAudioDevice initialized.
+[2016.06.16-15.09.09:501][412]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.16-15.09.09:503][412]LogWorld: Bringing World /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena.TSSL_Arena up for play (max tick rate 0) at 2016.06.17-00.09.09
+[2016.06.16-15.09.09:503][412]LogWorld: Bringing up level for play took: 0.001089
+[2016.06.16-15.09.09:507][412]PIE: Info Play in editor start time for /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena 0.935
+[2016.06.16-15.09.11:644][660]Job is a success!
+[2016.06.16-15.10.22:787][930]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.16-15.10.22:787][930]PIE: New page: PIE session: TSSL_Arena (Jun 17, 2016, 9:10:22 AM)
+[2016.06.16-15.10.22:787][930]LogPlayLevel: Creating play world package: /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena
+[2016.06.16-15.10.22:791][930]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003395s)
+[2016.06.16-15.10.22:791][930]LogAIModule: Creating AISystem for world TSSL_Arena
+[2016.06.16-15.10.22:791][930]LogPlayLevel: PIE: World Init took: (0.000523s)
+[2016.06.16-15.10.22:791][930]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LJS_Studies/TwinStickShooter/TSS_Levels/TSSL_Arena.TSSL_Arena to /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena.TSSL_Arena (0.004076s)
+[2016.06.16-15.10.22:833][930]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.16-15.10.22:860][930]LogInit: FAudioDevice initialized.
+[2016.06.16-15.10.22:889][930]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.16-15.10.22:891][930]LogWorld: Bringing World /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena.TSSL_Arena up for play (max tick rate 0) at 2016.06.17-00.10.22
+[2016.06.16-15.10.22:891][930]LogWorld: Bringing up level for play took: 0.001244
+[2016.06.16-15.10.22:893][930]PIE: Info Play in editor start time for /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena 0.322
+[2016.06.16-15.10.30:159][711]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2016.06.16-15.10.30:159][711]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.06.16-15.10.30:159][711]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.06.16-15.10.30:159][711]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2016.06.16-15.10.30:167][711]Lightmass on EMPRISE: 1:22 min total, 165 ms importing, 2 ms setup, 744 ms photons, 1:21 min processing, 0 ms extra exporting [6/6 mappings]. Threads: 5:24 min total, 4.54 sec processing.
+[2016.06.16-15.10.30:169][711]LogStaticLightingSystem: Illumination: 11.8 sec (506 ms encoding lightmaps, 136 ms encoding shadowmaps)
+[2016.06.16-15.10.30:169][711]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (0.0 MB streaming, 2.7 MB non-streaming), 2 textures
+[2016.06.16-15.10.30:169][711]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.0 MB streaming, 0.7 MB non-streaming), 1 textures
+[2016.06.16-15.10.30:342][712]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.06.16-15.10.30:342][712]MapCheck: New page: UEDPIE_0_TSSL_Arena - Jun 17, 2016, 9:10:30 AM
+[2016.06.16-15.10.30:450][712]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 108.516ms to complete.
+[2016.06.16-15.10.53:212][403]LogSavePackage: Save=72.48ms
+[2016.06.16-15.10.53:212][403]LogSavePackage: Moving 'D:/Unreal4Projects_LJS/LJSPR_Study/Saved/TSSL_Arena6715241A4CC5DDAA2762E58E4BC4A873.tmp' to 'D:/Unreal4Projects_LJS/LJSPR_Study/Content/LJS_Studies/TwinStickShooter/TSS_Levels/TSSL_Arena.umap'
+[2016.06.16-15.10.53:215][403]LogSavePackage: Total save time: 75.98ms
+[2016.06.16-15.10.53:215][403]LogSavePackage:Display: Finished SavePackage D:/Unreal4Projects_LJS/LJSPR_Study/Content/LJS_Studies/TwinStickShooter/TSS_Levels/TSSL_Arena.umap
+[2016.06.16-15.10.53:246][403]LogFileHelpers: Saving map 'TSSL_Arena' took 0.221
+[2016.06.16-15.14.25:696][948]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 108 classes and 0 folders.
+[2016.06.16-15.14.26:513][948]LogRenderer: Reallocating scene render targets to support 1220x688 (Frame:31598).
+[2016.06.16-15.14.28:386][114]LogSavePackage: Save=18.16ms
+[2016.06.16-15.14.28:386][114]LogSavePackage: Moving 'D:/Unreal4Projects_LJS/LJSPR_Study/Saved/TSSBP_BaseCharacterFE278B884CCD184122AF4D9BDE20FB75.tmp' to 'D:/Unreal4Projects_LJS/LJSPR_Study/Content/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_BaseCharacter.uasset'
+[2016.06.16-15.14.28:388][114]LogSavePackage: Total save time: 20.56ms
+[2016.06.16-15.14.28:388][114]LogSavePackage:Display: Finished SavePackage D:/Unreal4Projects_LJS/LJSPR_Study/Content/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_BaseCharacter.uasset
+[2016.06.16-15.18.53:862][ 15]BlueprintLog: New page: Compile TSSBP_BaseCharacter
+[2016.06.16-15.18.53:998][ 15]BlueprintEditorCompileResults: Info [0993.08] Compile of TSSBP_BaseCharacter successful! [in 135 ms]
+[2016.06.16-15.18.56:761][338]LogSavePackage: Save=17.44ms
+[2016.06.16-15.18.56:761][338]LogSavePackage: Moving 'D:/Unreal4Projects_LJS/LJSPR_Study/Saved/TSSBP_BaseCharacterF0DB90B34A559155CFD25AA958DEB98A.tmp' to 'D:/Unreal4Projects_LJS/LJSPR_Study/Content/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_BaseCharacter.uasset'
+[2016.06.16-15.18.56:763][338]LogSavePackage: Total save time: 21.93ms
+[2016.06.16-15.18.56:763][338]LogSavePackage:Display: Finished SavePackage D:/Unreal4Projects_LJS/LJSPR_Study/Content/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_BaseCharacter.uasset
+[2016.06.16-15.20.35:157][392]BlueprintLog: New page: Compile TSSBP_BaseCharacter
+[2016.06.16-15.20.35:233][392]BlueprintEditorCompileResults: Info [1094.32] Compile of TSSBP_BaseCharacter successful! [in 76 ms]
+[2016.06.16-15.20.35:733][442]LogSavePackage: Save=31.84ms
+[2016.06.16-15.20.35:733][442]LogSavePackage: Moving 'D:/Unreal4Projects_LJS/LJSPR_Study/Saved/TSSBP_BaseCharacter8232714F44C11BC3790A969625F17B7E.tmp' to 'D:/Unreal4Projects_LJS/LJSPR_Study/Content/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_BaseCharacter.uasset'
+[2016.06.16-15.20.35:736][442]LogSavePackage: Total save time: 35.01ms
+[2016.06.16-15.20.35:736][442]LogSavePackage:Display: Finished SavePackage D:/Unreal4Projects_LJS/LJSPR_Study/Content/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_BaseCharacter.uasset
+[2016.06.16-15.20.52:031][802]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_BaseCharacter.TSSBP_BaseCharacter:체력계산.K2Node_VariableSet_28 or K2Node_VariableSet /Game/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_BaseCharacter.TSSBP_BaseCharacter:죽었나?.K2Node_VariableSet_28
+[2016.06.16-15.20.52:031][802]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_BaseCharacter.TSSBP_BaseCharacter:체력계산.K2Node_VariableSet_27 or K2Node_VariableSet /Game/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_BaseCharacter.TSSBP_BaseCharacter:죽었나?.K2Node_VariableSet_27
+[2016.06.16-15.20.52:031][802]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros:Array to HLSL Float Array.K2Node_CallFunction_2526 or K2Node_CallFunction /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros:Array to HLSL Int Array.K2Node_CallFunction_2526
+[2016.06.16-15.20.52:031][802]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros:Array to HLSL Float Array.K2Node_CallFunction_2526 or K2Node_CallFunction /Game/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_BaseCharacter.TSSBP_BaseCharacter:체력계산.K2Node_CallFunction_2526
+[2016.06.16-15.20.52:031][802]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros:Array to HLSL Float Array.K2Node_CallFunction_2526 or K2Node_CallFunction /Game/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_BaseCharacter.TSSBP_BaseCharacter:죽었나?.K2Node_CallFunction_2526
+[2016.06.16-15.20.52:031][802]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_BaseCharacter.TSSBP_BaseCharacter:EdGraph_102.K2Node_FunctionEntry_46 or K2Node_FunctionEntry /Game/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_BaseCharacter.TSSBP_BaseCharacter:체력계산.K2Node_FunctionEntry_46
+[2016.06.16-15.20.52:032][802]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionEntry /Game/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_BaseCharacter.TSSBP_BaseCharacter:EdGraph_102.K2Node_FunctionEntry_46 or K2Node_FunctionEntry /Game/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_BaseCharacter.TSSBP_BaseCharacter:EdGraph_106.K2Node_FunctionEntry_46
+[2016.06.16-15.20.52:032][802]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros:Array to HLSL Float Array.K2Node_CallFunction_2526 or K2Node_CallFunction /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros:Array to HLSL Int Array.K2Node_CallFunction_2526
+[2016.06.16-15.20.52:032][802]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros:Array to HLSL Float Array.K2Node_CallFunction_2526 or K2Node_CallFunction /Game/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_BaseCharacter.TSSBP_BaseCharacter:체력계산.K2Node_CallFunction_2526
+[2016.06.16-15.20.52:032][802]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros:Array to HLSL Float Array.K2Node_CallFunction_2526 or K2Node_CallFunction /Game/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_BaseCharacter.TSSBP_BaseCharacter:죽었나?.K2Node_CallFunction_2526
+[2016.06.16-15.21.57:510][570]BlueprintLog: New page: Compile TSSBP_BaseCharacter
+[2016.06.16-15.21.57:590][570]BlueprintEditorCompileResults: Info [1176.67] Compile of TSSBP_BaseCharacter successful! [in 80 ms]
+[2016.06.16-15.21.58:151][625]LogSavePackage: Save=38.94ms
+[2016.06.16-15.21.58:151][625]LogSavePackage: Moving 'D:/Unreal4Projects_LJS/LJSPR_Study/Saved/TSSBP_BaseCharacter6A38E0A04B6CF8A3617E249FFC41FE22.tmp' to 'D:/Unreal4Projects_LJS/LJSPR_Study/Content/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_BaseCharacter.uasset'
+[2016.06.16-15.21.58:153][625]LogSavePackage: Total save time: 42.12ms
+[2016.06.16-15.21.58:153][625]LogSavePackage:Display: Finished SavePackage D:/Unreal4Projects_LJS/LJSPR_Study/Content/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_BaseCharacter.uasset
+[2016.06.16-15.23.03:774][878]LogLinker:Warning: Can't find file '/Game/TwinStickShooter/Blueprint/HeroCharacter'
+[2016.06.16-15.23.03:774][878]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/HeroCharacter'
+[2016.06.16-15.23.03:774][878]LogProperty:Warning: ObjectProperty /Script/Engine.SimpleMemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/HeroCharacter.HeroCharacter_C',MemberName="InpAxisEvt_MoveUp_K2Node_InputAxisEvent_26"))'
+[2016.06.16-15.23.03:774][878]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros:Array to HLSL Float Array.K2Node_CallFunction_2527 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2527
+[2016.06.16-15.23.03:774][878]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros:Array to HLSL Float Array.K2Node_CallFunction_2527 or K2Node_CallFunction /Game/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_HeroCharacter.TSSBP_HeroCharacter:EventGraph.K2Node_CallFunction_2527
+[2016.06.16-15.23.03:774][878]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2527.EdGraphPin_5541''
+[2016.06.16-15.23.03:775][878]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros:Array to HLSL Float Array.K2Node_CallFunction_2527 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2527
+[2016.06.16-15.23.03:775][878]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros:Array to HLSL Float Array.K2Node_CallFunction_2527 or K2Node_CallFunction /Game/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_HeroCharacter.TSSBP_HeroCharacter:EventGraph.K2Node_CallFunction_2527
+[2016.06.16-15.23.03:775][878]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2527.EdGraphPin_5545''
+[2016.06.16-15.23.03:777][878]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/HeroCharacter'
+[2016.06.16-15.23.03:777][878]LogProperty:Warning: ObjectProperty /Script/Engine.SimpleMemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/HeroCharacter.HeroCharacter_C',MemberName="InpAxisEvt_MoveRight_K2Node_InputAxisEvent_28"))'
+[2016.06.16-15.23.03:777][878]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2531.EdGraphPin_5559''
+[2016.06.16-15.23.03:777][878]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2531.EdGraphPin_5563''
+[2016.06.16-15.23.18:610][636]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/HeroCharacter'
+[2016.06.16-15.23.18:610][636]LogProperty:Warning: ObjectProperty /Script/Engine.SimpleMemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/HeroCharacter.HeroCharacter_C',MemberName="InpAxisEvt_LookUp_K2Node_InputAxisEvent_37"))'
+[2016.06.16-15.23.18:610][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_1.EdGraphPin_4814''
+[2016.06.16-15.23.18:610][636]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros:Array to HLSL Float Array.K2Node_CallFunction_2555 or K2Node_CallFunction /Game/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_HeroCharacter.TSSBP_HeroCharacter:EventGraph.K2Node_CallFunction_2555
+[2016.06.16-15.23.18:610][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2555.EdGraphPin_5578''
+[2016.06.16-15.23.18:611][636]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/HeroCharacter'
+[2016.06.16-15.23.18:611][636]LogProperty:Warning: ObjectProperty /Script/Engine.SimpleMemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/HeroCharacter.HeroCharacter_C',MemberName="InpAxisEvt_LookRight_K2Node_InputAxisEvent_41"))'
+[2016.06.16-15.23.18:611][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_1.EdGraphPin_4814''
+[2016.06.16-15.23.18:611][636]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros:Array to HLSL Float Array.K2Node_CallFunction_2555 or K2Node_CallFunction /Game/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_HeroCharacter.TSSBP_HeroCharacter:EventGraph.K2Node_CallFunction_2555
+[2016.06.16-15.23.18:611][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2555.EdGraphPin_5579''
+[2016.06.16-15.23.18:612][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2556.EdGraphPin_5593''
+[2016.06.16-15.23.18:612][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2561.EdGraphPin_5632''
+[2016.06.16-15.23.18:613][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2557.EdGraphPin_5602''
+[2016.06.16-15.23.18:613][636]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_IfThenElse_19 or K2Node_IfThenElse /Game/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_BaseCharacter.TSSBP_BaseCharacter:체력계산.K2Node_IfThenElse_19
+[2016.06.16-15.23.18:613][636]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_IfThenElse_19 or K2Node_IfThenElse /Game/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_BaseCharacter.TSSBP_BaseCharacter:EdGraph_117.K2Node_IfThenElse_19
+[2016.06.16-15.23.18:613][636]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_IfThenElse_19 or K2Node_IfThenElse /Game/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_BaseCharacter.TSSBP_BaseCharacter:죽었나?.K2Node_IfThenElse_19
+[2016.06.16-15.23.18:613][636]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_IfThenElse_19 or K2Node_IfThenElse /Game/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_BaseCharacter.TSSBP_BaseCharacter:EdGraph_121.K2Node_IfThenElse_19
+[2016.06.16-15.23.18:613][636]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_IfThenElse_19 or K2Node_IfThenElse /Game/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_BaseCharacter.TSSBP_BaseCharacter:EdGraph_125.K2Node_IfThenElse_19
+[2016.06.16-15.23.18:614][636]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:EventGraph.K2Node_IfThenElse_19 or K2Node_IfThenElse /Game/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_HeroCharacter.TSSBP_HeroCharacter:EventGraph.K2Node_IfThenElse_19
+[2016.06.16-15.23.18:614][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_19.EdGraphPin_4395''
+[2016.06.16-15.23.18:614][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_1.EdGraphPin_4815''
+[2016.06.16-15.23.18:614][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2559.EdGraphPin_5619''
+[2016.06.16-15.23.18:614][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2858.EdGraphPin_5700''
+[2016.06.16-15.23.18:615][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2559.EdGraphPin_5621''
+[2016.06.16-15.23.18:616][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2857.EdGraphPin_5691''
+[2016.06.16-15.23.18:616][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3112.EdGraphPin_5901''
+[2016.06.16-15.23.18:617][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_2.EdGraphPin_4820''
+[2016.06.16-15.23.18:617][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3112.EdGraphPin_5899''
+[2016.06.16-15.23.18:618][636]LogLinker:Warning: Can't find file '/Game/TwinStickShooter/Blueprint/Weapon'
+[2016.06.16-15.23.18:618][636]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/Weapon'
+[2016.06.16-15.23.18:618][636]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/Weapon.Weapon_C')'
+[2016.06.16-15.23.18:618][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2857.EdGraphPin_5693''
+[2016.06.16-15.23.18:618][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2858.EdGraphPin_5702''
+[2016.06.16-15.23.18:618][636]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/HeroCharacter'
+[2016.06.16-15.23.18:618][636]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/HeroCharacter.HeroCharacter_C')'
+[2016.06.16-15.23.18:619][636]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/Weapon'
+[2016.06.16-15.23.18:619][636]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/Weapon.Weapon_C')'
+[2016.06.16-15.23.18:620][636]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/Weapon'
+[2016.06.16-15.23.18:620][636]LogProperty:Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/Weapon.Weapon_C',MemberName="PullTrigger",MemberGuid=227C033B4B3E4BF7B84CC598FD4DC745)'
+[2016.06.16-15.23.18:620][636]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/Weapon'
+[2016.06.16-15.23.18:620][636]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/Weapon.Weapon_C')'
+[2016.06.16-15.23.18:621][636]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/Weapon'
+[2016.06.16-15.23.18:621][636]LogProperty:Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/Weapon.Weapon_C',MemberName="ReleaseTrigger",MemberGuid=85EC8F344CBA636DBD9B60B05D2D7A57)'
+[2016.06.16-15.23.18:621][636]LogLinker:Warning: Can't find file '/Game/TwinStickShooter/Blueprint/IDamagable'
+[2016.06.16-15.23.18:621][636]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/IDamagable'
+[2016.06.16-15.23.18:621][636]LogProperty:Warning: ObjectProperty /Script/Engine.SimpleMemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/IDamagable.IDamagable_C',MemberName="AffectHealth",MemberGuid=EB3684B34A0DEEC34DDE5591AFB7490A))'
+[2016.06.16-15.23.18:622][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2951.EdGraphPin_5718''
+[2016.06.16-15.23.18:622][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2951.EdGraphPin_5721''
+[2016.06.16-15.23.18:622][636]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/IDamagable'
+[2016.06.16-15.23.18:622][636]LogProperty:Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/IDamagable.IDamagable_C',MemberName="AffectHealth",MemberGuid=EB3684B34A0DEEC34DDE5591AFB7490A)'
+[2016.06.16-15.23.18:623][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2954.EdGraphPin_5748''
+[2016.06.16-15.23.18:623][636]LogLinker:Warning: Can't find file '/Game/TwinStickShooter/Blueprint/BaseCharacter'
+[2016.06.16-15.23.18:623][636]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/BaseCharacter'
+[2016.06.16-15.23.18:623][636]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/BaseCharacter.BaseCharacter_C')'
+[2016.06.16-15.23.18:624][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2954.EdGraphPin_5749''
+[2016.06.16-15.23.18:624][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_49.EdGraphPin_4607''
+[2016.06.16-15.23.18:624][636]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/BaseCharacter'
+[2016.06.16-15.23.18:624][636]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/BaseCharacter.BaseCharacter_C')'
+[2016.06.16-15.23.18:624][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_49.EdGraphPin_4608''
+[2016.06.16-15.23.18:625][636]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/BaseCharacter'
+[2016.06.16-15.23.18:625][636]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/BaseCharacter.BaseCharacter_C')'
+[2016.06.16-15.23.18:625][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2952.EdGraphPin_5731''
+[2016.06.16-15.23.18:625][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4472.EdGraphPin_5859''
+[2016.06.16-15.23.18:626][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3746.EdGraphPin_5833''
+[2016.06.16-15.23.18:626][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_385.EdGraphPin_4670''
+[2016.06.16-15.23.18:626][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Self_7.EdGraphPin_4463''
+[2016.06.16-15.23.18:627][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2951.EdGraphPin_5719''
+[2016.06.16-15.23.18:627][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2952.EdGraphPin_5730''
+[2016.06.16-15.23.18:627][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2955.EdGraphPin_5777''
+[2016.06.16-15.23.18:628][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2955.EdGraphPin_5776''
+[2016.06.16-15.23.18:628][636]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/BaseCharacter'
+[2016.06.16-15.23.18:628][636]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/BaseCharacter.BaseCharacter_C')'
+[2016.06.16-15.23.18:629][636]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/Weapon'
+[2016.06.16-15.23.18:630][636]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/Weapon.Weapon_C')'
+[2016.06.16-15.23.18:630][636]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/HeroCharacter'
+[2016.06.16-15.23.18:630][636]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/HeroCharacter.HeroCharacter_C')'
+[2016.06.16-15.23.18:631][636]LogLinker:Warning: Can't find file '/Game/TwinStickShooter/Blueprint/TwinStickMode'
+[2016.06.16-15.23.18:631][636]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/TwinStickMode'
+[2016.06.16-15.23.18:631][636]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/TwinStickMode.TwinStickMode_C')'
+[2016.06.16-15.23.18:631][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3746.EdGraphPin_5834''
+[2016.06.16-15.23.18:632][636]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/HeroCharacter'
+[2016.06.16-15.23.18:632][636]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/HeroCharacter.HeroCharacter_C')'
+[2016.06.16-15.23.18:632][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4471.EdGraphPin_5842''
+[2016.06.16-15.23.18:632][636]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/TwinStickMode'
+[2016.06.16-15.23.18:632][636]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/TwinStickMode.TwinStickMode_C')'
+[2016.06.16-15.23.18:633][636]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/TwinStickMode'
+[2016.06.16-15.23.18:633][636]LogProperty:Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/TwinStickMode.TwinStickMode_C',MemberName="RespawnPlayer",MemberGuid=4D4663C346C19829F95FD19117FFBC06)'
+[2016.06.16-15.23.18:633][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4472.EdGraphPin_5860''
+[2016.06.16-15.23.18:634][636]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3746.EdGraphPin_5832''
+[2016.06.16-15.23.18:640][636]LogBlueprint:Warning: [TSSBP_HeroCharacter] CreatePinForVariable: 'Weapon' variable not found. Base class was probably changed.
+[2016.06.16-15.23.18:640][636]LogBlueprint:Warning: [TSSBP_HeroCharacter] CreatePinForVariable: 'isDead' variable not found. Base class was probably changed.
+[2016.06.16-15.23.18:640][636]LogBlueprint:Warning: [TSSBP_HeroCharacter] CreatePinForVariable: 'Health' variable not found. Base class was probably changed.
+[2016.06.16-15.23.18:641][636]LogBlueprint:Warning: [TSSBP_HeroCharacter] CreatePinForVariable: 'Weapon' variable not found. Base class was probably changed.
+[2016.06.16-15.23.18:641][636]LogBlueprint:Warning: [TSSBP_HeroCharacter] CreatePinForVariable: 'GameMode' variable not found. Base class was probably changed.
+[2016.06.16-15.23.26:941][111]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/HeroCharacter'
+[2016.06.16-15.23.26:941][111]LogProperty:Warning: ObjectProperty /Script/Engine.SimpleMemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/HeroCharacter.HeroCharacter_C',MemberName="ReceiveBeginPlay"))'
+[2016.06.16-15.23.26:941][111]LogUObjectHash:Warning: Ambiguous search, could be K2Node_ExecutionSequence /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:WhileLoop.K2Node_ExecutionSequence_11 or K2Node_ExecutionSequence /Game/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_HeroCharacter.TSSBP_HeroCharacter:EventGraph.K2Node_ExecutionSequence_11
+[2016.06.16-15.23.26:941][111]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ExecutionSequence_11.EdGraphPin_4451''
+[2016.06.16-15.23.26:941][111]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/HeroCharacter'
+[2016.06.16-15.23.26:941][111]LogProperty:Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/HeroCharacter.HeroCharacter_C',MemberName="ReceiveBeginPlay")'
+[2016.06.16-15.23.26:942][111]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_19.EdGraphPin_4832''
+[2016.06.16-15.23.26:942][111]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_129.EdGraphPin_4826''
+[2016.06.16-15.23.26:942][111]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_308.EdGraphPin_4808''
+[2016.06.16-15.23.26:943][111]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SpawnActorFromClass_11.EdGraphPin_5640''
+[2016.06.16-15.23.26:944][111]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_77.EdGraphPin_4496''
+[2016.06.16-15.23.26:944][111]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/Weapon'
+[2016.06.16-15.23.26:944][111]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:DefaultObject: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/Weapon.Weapon_C''
+[2016.06.16-15.23.26:944][111]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2760.EdGraphPin_5665''
+[2016.06.16-15.23.26:945][111]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/Weapon'
+[2016.06.16-15.23.26:945][111]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/Weapon.Weapon_C')'
+[2016.06.16-15.23.26:945][111]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_77.EdGraphPin_4498''
+[2016.06.16-15.23.26:945][111]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_2087.EdGraphPin_4778''
+[2016.06.16-15.23.26:946][111]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2792.EdGraphPin_5670''
+[2016.06.16-15.23.26:946][111]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/Weapon'
+[2016.06.16-15.23.26:946][111]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/Weapon.Weapon_C')'
+[2016.06.16-15.23.26:946][111]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/Weapon'
+[2016.06.16-15.23.26:947][111]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/Weapon.Weapon_C')'
+[2016.06.16-15.23.26:947][111]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2792.EdGraphPin_5672''
+[2016.06.16-15.23.26:947][111]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/HeroCharacter'
+[2016.06.16-15.23.26:947][111]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/HeroCharacter.HeroCharacter_C')'
+[2016.06.16-15.23.26:948][111]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_272.EdGraphPin_4797''
+[2016.06.16-15.23.26:949][111]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_552.EdGraphPin_5793''
+[2016.06.16-15.23.26:949][111]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_552.EdGraphPin_5796''
+[2016.06.16-15.23.26:950][111]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_720.EdGraphPin_4565''
+[2016.06.16-15.23.26:950][111]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/TwinStickMode'
+[2016.06.16-15.23.26:951][111]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/TwinStickMode.TwinStickMode_C')'
+[2016.06.16-15.23.26:951][111]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_720.EdGraphPin_4567''
+[2016.06.16-15.23.26:951][111]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/TwinStickMode'
+[2016.06.16-15.23.26:951][111]LogProperty:Warning: ClassProperty /Script/BlueprintGraph.K2Node_DynamicCast:TargetType: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/TwinStickMode.TwinStickMode_C''
+[2016.06.16-15.23.26:952][111]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_728.EdGraphPin_5811''
+[2016.06.16-15.23.26:952][111]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/TwinStickMode'
+[2016.06.16-15.23.26:952][111]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/TwinStickMode.TwinStickMode_C')'
+[2016.06.16-15.23.26:952][111]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/TwinStickMode'
+[2016.06.16-15.23.26:952][111]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/TwinStickMode.TwinStickMode_C')'
+[2016.06.16-15.23.26:952][111]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_728.EdGraphPin_5815''
+[2016.06.16-15.23.26:952][111]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/HeroCharacter'
+[2016.06.16-15.23.26:952][111]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/HeroCharacter.HeroCharacter_C')'
+[2016.06.16-15.23.26:953][111]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3671.EdGraphPin_5827''
+[2016.06.16-15.23.26:954][111]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/TwinStickMode'
+[2016.06.16-15.23.26:954][111]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/TwinStickMode.TwinStickMode_C')'
+[2016.06.16-15.23.26:954][111]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/TwinStickMode'
+[2016.06.16-15.23.26:954][111]LogProperty:Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/TwinStickMode.TwinStickMode_C',MemberName="PlayerSpawnTransform",MemberGuid=ED0DEAC34028E45E8D388784CF0EFFBF)'
+[2016.06.16-15.23.26:955][111]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_273.EdGraphPin_4802''
+[2016.06.16-15.23.26:955][111]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_273.EdGraphPin_4803''
+[2016.06.16-15.23.26:956][111]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CreateWidget_1.EdGraphPin_5883''
+[2016.06.16-15.23.26:957][111]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CreateWidget_1.EdGraphPin_5884''
+[2016.06.16-15.23.26:957][111]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CreateWidget_1.EdGraphPin_5886''
+[2016.06.16-15.23.26:958][111]LogLinker:Warning: Can't find file '/Game/TwinStickShooter/Blueprint/TwinStickHUD'
+[2016.06.16-15.23.26:958][111]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/TwinStickHUD'
+[2016.06.16-15.23.26:958][111]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:DefaultObject: unresolved reference to 'WidgetBlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/TwinStickHUD.TwinStickHUD_C''
+[2016.06.16-15.23.26:958][111]LogLinker: Can't find file '/Game/TwinStickShooter/Blueprint/TwinStickHUD'
+[2016.06.16-15.23.26:958][111]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'WidgetBlueprintGeneratedClass'/Game/TwinStickShooter/Blueprint/TwinStickHUD.TwinStickHUD_C')'
+[2016.06.16-15.23.26:967][111]LogBlueprint:Warning: [TSSBP_HeroCharacter] CreatePinForVariable: 'Weapon' variable not found. Base class was probably changed.
+[2016.06.16-15.23.26:967][111]LogBlueprint:Warning: [TSSBP_HeroCharacter] CreatePinForVariable: 'Weapon' variable not found. Base class was probably changed.
+[2016.06.16-15.23.26:968][111]LogBlueprint:Warning: [TSSBP_HeroCharacter] CreatePinForVariable: 'GameMode' variable not found. Base class was probably changed.
+[2016.06.16-15.23.26:968][111]LogBlueprint:Warning: [TSSBP_HeroCharacter] CreatePinForVariable: 'GameMode' variable not found. Base class was probably changed.
+[2016.06.16-15.23.26:968][111]LogBlueprint:Warning: [TSSBP_HeroCharacter] CreatePinForVariable: 'PlayerSpawnTransform' variable not found. Base class was probably changed.
+[2016.06.16-15.23.26:968][111]LogBlueprint:Warning: [TSSBP_HeroCharacter] CreatePinForVariable: 'PlayerSpawnTransform' variable not found. Base class was probably changed.
+[2016.06.16-15.25.08:804][696]BlueprintLog: New page: Compile TSSBP_HeroCharacter
+[2016.06.16-15.25.08:844][696]LogBlueprint:Error: [compiler TSSBP_HeroCharacter] Error Spawn node  Create Widget  must have a class specified.
+[2016.06.16-15.25.08:844][696]LogBlueprint:Error: [compiler TSSBP_HeroCharacter] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.06.16-15.25.08:846][696]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "PlayerSpawnTransform" in 'TSSBP_HeroCharacter'.
+Make sure 'TSSBP_HeroCharacter' has been compiled for  Set PlayerSpawnTransform 
+[2016.06.16-15.25.08:846][696]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "GameMode" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Set GameMode 
+[2016.06.16-15.25.08:846][696]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.06.16-15.25.08:846][696]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.06.16-15.25.08:846][696]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Target  and  EdGraphPin_30569 : Actor Reference is not compatible with Reference.
+[2016.06.16-15.25.08:846][696]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Set Weapon 
+[2016.06.16-15.25.08:847][696]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "GameMode" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get GameMode 
+[2016.06.16-15.25.08:847][696]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Weapon  and  Target : Reference is not compatible with Actor Reference.
+[2016.06.16-15.25.08:848][696]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.25.08:848][696]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "Health" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Health 
+[2016.06.16-15.25.08:848][696]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Target  and  Weapon : Actor Reference is not compatible with Reference.
+[2016.06.16-15.25.08:848][696]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "isDead" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get isDead 
+[2016.06.16-15.25.08:848][696]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.25.08:849][696]LogBlueprint:Error: [compiler TSSBP_HeroCharacter] Error Dependency cycle detected, preventing node  Set PlayerSpawnTransform  from being scheduled
+[2016.06.16-15.25.08:850][696]LogBlueprint:Error: [compiler TSSBP_HeroCharacter] Error Default value '' for  Game Mode  is invalid: 'PinSubCategoryObject on pin 'GameMode' is NULL and PinSubCategory is '' not 'self''
+[2016.06.16-15.25.09:057][696]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning [1368.14] Compile of TSSBP_HeroCharacter failed. 4 Fatal Issue(s) 13 Warning(s) [in 253 ms]
+[2016.06.16-15.25.09:058][696]BlueprintEditorCompileResults:Error: Error Spawn node  Create Widget  must have a class specified.
+[2016.06.16-15.25.09:058][696]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.06.16-15.25.09:058][696]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "PlayerSpawnTransform" in 'TSSBP_HeroCharacter'.
+Make sure 'TSSBP_HeroCharacter' has been compiled for  Set PlayerSpawnTransform 
+[2016.06.16-15.25.09:058][696]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GameMode" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Set GameMode 
+[2016.06.16-15.25.09:058][696]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.06.16-15.25.09:058][696]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.06.16-15.25.09:058][696]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Target  and  EdGraphPin_30569 : Actor Reference is not compatible with Reference.
+[2016.06.16-15.25.09:058][696]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Set Weapon 
+[2016.06.16-15.25.09:058][696]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GameMode" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get GameMode 
+[2016.06.16-15.25.09:058][696]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Weapon  and  Target : Reference is not compatible with Actor Reference.
+[2016.06.16-15.25.09:058][696]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.25.09:058][696]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Health" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Health 
+[2016.06.16-15.25.09:058][696]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Target  and  Weapon : Actor Reference is not compatible with Reference.
+[2016.06.16-15.25.09:058][696]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "isDead" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get isDead 
+[2016.06.16-15.25.09:058][696]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.25.09:058][696]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Set PlayerSpawnTransform  from being scheduled
+[2016.06.16-15.25.09:058][696]BlueprintEditorCompileResults:Error: Error Default value '' for  Game Mode  is invalid: 'PinSubCategoryObject on pin 'GameMode' is NULL and PinSubCategory is '' not 'self''
+[2016.06.16-15.25.09:058][696]BlueprintEditorCompileResults:Warning: Warning [1368.14] Compile of TSSBP_HeroCharacter failed. 4 Fatal Issue(s) 13 Warning(s) [in 253 ms]
+[2016.06.16-15.25.23:460][405]BlueprintLog: New page: Compile TSSBP_HeroCharacter
+[2016.06.16-15.25.23:499][405]LogBlueprint:Error: [compiler TSSBP_HeroCharacter] Error Spawn node  Create Widget  must have a class specified.
+[2016.06.16-15.25.23:499][405]LogBlueprint:Error: [compiler TSSBP_HeroCharacter] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.06.16-15.25.23:501][405]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "PlayerSpawnTransform" in 'TSSBP_HeroCharacter'.
+Make sure 'TSSBP_HeroCharacter' has been compiled for  Set PlayerSpawnTransform 
+[2016.06.16-15.25.23:501][405]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "GameMode" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Set GameMode 
+[2016.06.16-15.25.23:501][405]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.06.16-15.25.23:501][405]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.06.16-15.25.23:502][405]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Target  and  EdGraphPin_30569 : Actor Reference is not compatible with Reference.
+[2016.06.16-15.25.23:502][405]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Set Weapon 
+[2016.06.16-15.25.23:502][405]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "GameMode" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get GameMode 
+[2016.06.16-15.25.23:502][405]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Weapon  and  Target : Reference is not compatible with Actor Reference.
+[2016.06.16-15.25.23:502][405]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.25.23:502][405]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "Health" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Health 
+[2016.06.16-15.25.23:502][405]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Target  and  Weapon : Actor Reference is not compatible with Reference.
+[2016.06.16-15.25.23:502][405]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "isDead" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get isDead 
+[2016.06.16-15.25.23:503][405]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.25.23:504][405]LogBlueprint:Error: [compiler TSSBP_HeroCharacter] Error Dependency cycle detected, preventing node  Set PlayerSpawnTransform  from being scheduled
+[2016.06.16-15.25.23:504][405]LogBlueprint:Error: [compiler TSSBP_HeroCharacter] Error Default value '' for  Game Mode  is invalid: 'PinSubCategoryObject on pin 'GameMode' is NULL and PinSubCategory is '' not 'self''
+[2016.06.16-15.25.23:647][405]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning [1382.73] Compile of TSSBP_HeroCharacter failed. 4 Fatal Issue(s) 13 Warning(s) [in 186 ms]
+[2016.06.16-15.25.23:647][405]BlueprintEditorCompileResults:Error: Error Spawn node  Create Widget  must have a class specified.
+[2016.06.16-15.25.23:647][405]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.06.16-15.25.23:647][405]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "PlayerSpawnTransform" in 'TSSBP_HeroCharacter'.
+Make sure 'TSSBP_HeroCharacter' has been compiled for  Set PlayerSpawnTransform 
+[2016.06.16-15.25.23:647][405]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GameMode" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Set GameMode 
+[2016.06.16-15.25.23:647][405]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.06.16-15.25.23:647][405]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.06.16-15.25.23:647][405]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Target  and  EdGraphPin_30569 : Actor Reference is not compatible with Reference.
+[2016.06.16-15.25.23:647][405]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Set Weapon 
+[2016.06.16-15.25.23:647][405]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GameMode" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get GameMode 
+[2016.06.16-15.25.23:647][405]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Weapon  and  Target : Reference is not compatible with Actor Reference.
+[2016.06.16-15.25.23:647][405]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.25.23:647][405]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Health" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Health 
+[2016.06.16-15.25.23:647][405]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Target  and  Weapon : Actor Reference is not compatible with Reference.
+[2016.06.16-15.25.23:647][405]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "isDead" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get isDead 
+[2016.06.16-15.25.23:647][405]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.25.23:647][405]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Set PlayerSpawnTransform  from being scheduled
+[2016.06.16-15.25.23:647][405]BlueprintEditorCompileResults:Error: Error Default value '' for  Game Mode  is invalid: 'PinSubCategoryObject on pin 'GameMode' is NULL and PinSubCategory is '' not 'self''
+[2016.06.16-15.25.23:647][405]BlueprintEditorCompileResults:Warning: Warning [1382.73] Compile of TSSBP_HeroCharacter failed. 4 Fatal Issue(s) 13 Warning(s) [in 186 ms]
+[2016.06.16-15.25.30:236][189]BlueprintLog: New page: Compile TSSBP_HeroCharacter
+[2016.06.16-15.25.30:275][189]LogBlueprint:Error: [compiler TSSBP_HeroCharacter] Error Spawn node  Create Widget  must have a class specified.
+[2016.06.16-15.25.30:275][189]LogBlueprint:Error: [compiler TSSBP_HeroCharacter] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.06.16-15.25.30:277][189]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "PlayerSpawnTransform" in 'TSSBP_HeroCharacter'.
+Make sure 'TSSBP_HeroCharacter' has been compiled for  Set PlayerSpawnTransform 
+[2016.06.16-15.25.30:277][189]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "GameMode" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Set GameMode 
+[2016.06.16-15.25.30:277][189]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.06.16-15.25.30:277][189]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.06.16-15.25.30:278][189]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Target  and  EdGraphPin_30569 : Actor Reference is not compatible with Reference.
+[2016.06.16-15.25.30:278][189]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Set Weapon 
+[2016.06.16-15.25.30:278][189]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "GameMode" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get GameMode 
+[2016.06.16-15.25.30:278][189]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Weapon  and  Target : Reference is not compatible with Actor Reference.
+[2016.06.16-15.25.30:278][189]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.25.30:278][189]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "Health" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Health 
+[2016.06.16-15.25.30:278][189]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Target  and  Weapon : Actor Reference is not compatible with Reference.
+[2016.06.16-15.25.30:278][189]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "isDead" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get isDead 
+[2016.06.16-15.25.30:279][189]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.25.30:422][189]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning [1389.50] Compile of TSSBP_HeroCharacter failed. 2 Fatal Issue(s) 13 Warning(s) [in 185 ms]
+[2016.06.16-15.25.30:422][189]BlueprintEditorCompileResults:Error: Error Spawn node  Create Widget  must have a class specified.
+[2016.06.16-15.25.30:422][189]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.06.16-15.25.30:422][189]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "PlayerSpawnTransform" in 'TSSBP_HeroCharacter'.
+Make sure 'TSSBP_HeroCharacter' has been compiled for  Set PlayerSpawnTransform 
+[2016.06.16-15.25.30:422][189]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GameMode" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Set GameMode 
+[2016.06.16-15.25.30:422][189]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.06.16-15.25.30:422][189]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.06.16-15.25.30:422][189]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Target  and  EdGraphPin_30569 : Actor Reference is not compatible with Reference.
+[2016.06.16-15.25.30:422][189]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Set Weapon 
+[2016.06.16-15.25.30:422][189]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GameMode" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get GameMode 
+[2016.06.16-15.25.30:422][189]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Weapon  and  Target : Reference is not compatible with Actor Reference.
+[2016.06.16-15.25.30:422][189]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.25.30:422][189]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Health" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Health 
+[2016.06.16-15.25.30:422][189]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Target  and  Weapon : Actor Reference is not compatible with Reference.
+[2016.06.16-15.25.30:422][189]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "isDead" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get isDead 
+[2016.06.16-15.25.30:422][189]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.25.30:422][189]BlueprintEditorCompileResults:Warning: Warning [1389.50] Compile of TSSBP_HeroCharacter failed. 2 Fatal Issue(s) 13 Warning(s) [in 185 ms]
+[2016.06.16-15.25.35:843][824]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.06.16-15.25.42:034][550]BlueprintLog: New page: Compile TSSBP_HeroCharacter
+[2016.06.16-15.25.42:074][550]LogBlueprint:Error: [compiler TSSBP_HeroCharacter] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.06.16-15.25.42:076][550]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "PlayerSpawnTransform" in 'TSSBP_HeroCharacter'.
+Make sure 'TSSBP_HeroCharacter' has been compiled for  Set PlayerSpawnTransform 
+[2016.06.16-15.25.42:076][550]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "GameMode" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Set GameMode 
+[2016.06.16-15.25.42:076][550]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.06.16-15.25.42:076][550]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.06.16-15.25.42:076][550]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Target  and  EdGraphPin_30569 : Actor Reference is not compatible with Reference.
+[2016.06.16-15.25.42:077][550]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Set Weapon 
+[2016.06.16-15.25.42:077][550]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "GameMode" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get GameMode 
+[2016.06.16-15.25.42:077][550]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Weapon  and  Target : Reference is not compatible with Actor Reference.
+[2016.06.16-15.25.42:077][550]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.25.42:077][550]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "Health" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Health 
+[2016.06.16-15.25.42:077][550]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Target  and  Weapon : Actor Reference is not compatible with Reference.
+[2016.06.16-15.25.42:077][550]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "isDead" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get isDead 
+[2016.06.16-15.25.42:078][550]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.25.42:221][550]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning [1401.30] Compile of TSSBP_HeroCharacter failed. 1 Fatal Issue(s) 13 Warning(s) [in 185 ms]
+[2016.06.16-15.25.42:221][550]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.06.16-15.25.42:221][550]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "PlayerSpawnTransform" in 'TSSBP_HeroCharacter'.
+Make sure 'TSSBP_HeroCharacter' has been compiled for  Set PlayerSpawnTransform 
+[2016.06.16-15.25.42:221][550]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GameMode" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Set GameMode 
+[2016.06.16-15.25.42:221][550]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.06.16-15.25.42:221][550]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.06.16-15.25.42:221][550]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Target  and  EdGraphPin_30569 : Actor Reference is not compatible with Reference.
+[2016.06.16-15.25.42:221][550]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Set Weapon 
+[2016.06.16-15.25.42:221][550]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GameMode" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get GameMode 
+[2016.06.16-15.25.42:221][550]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Weapon  and  Target : Reference is not compatible with Actor Reference.
+[2016.06.16-15.25.42:221][550]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.25.42:221][550]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Health" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Health 
+[2016.06.16-15.25.42:221][550]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Target  and  Weapon : Actor Reference is not compatible with Reference.
+[2016.06.16-15.25.42:221][550]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "isDead" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get isDead 
+[2016.06.16-15.25.42:221][550]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.25.42:221][550]BlueprintEditorCompileResults:Warning: Warning [1401.30] Compile of TSSBP_HeroCharacter failed. 1 Fatal Issue(s) 13 Warning(s) [in 185 ms]
+[2016.06.16-15.25.51:263][619]BlueprintLog: New page: Compile TSSBP_HeroCharacter
+[2016.06.16-15.25.51:304][619]LogBlueprint:Error: [compiler TSSBP_HeroCharacter] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.06.16-15.25.51:306][619]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "PlayerSpawnTransform" in 'TSSBP_HeroCharacter'.
+Make sure 'TSSBP_HeroCharacter' has been compiled for  Set PlayerSpawnTransform 
+[2016.06.16-15.25.51:306][619]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "GameMode" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Set GameMode 
+[2016.06.16-15.25.51:306][619]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.06.16-15.25.51:306][619]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.06.16-15.25.51:306][619]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Target  and  EdGraphPin_30569 : Actor Reference is not compatible with Reference.
+[2016.06.16-15.25.51:306][619]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Set Weapon 
+[2016.06.16-15.25.51:306][619]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "GameMode" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get GameMode 
+[2016.06.16-15.25.51:307][619]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Weapon  and  Target : Reference is not compatible with Actor Reference.
+[2016.06.16-15.25.51:307][619]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.25.51:307][619]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "Health" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Health 
+[2016.06.16-15.25.51:307][619]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Target  and  Weapon : Actor Reference is not compatible with Reference.
+[2016.06.16-15.25.51:307][619]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "isDead" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get isDead 
+[2016.06.16-15.25.51:307][619]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.25.51:453][619]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning [1410.54] Compile of TSSBP_HeroCharacter failed. 1 Fatal Issue(s) 13 Warning(s) [in 189 ms]
+[2016.06.16-15.25.51:453][619]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.06.16-15.25.51:453][619]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "PlayerSpawnTransform" in 'TSSBP_HeroCharacter'.
+Make sure 'TSSBP_HeroCharacter' has been compiled for  Set PlayerSpawnTransform 
+[2016.06.16-15.25.51:453][619]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GameMode" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Set GameMode 
+[2016.06.16-15.25.51:453][619]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.06.16-15.25.51:453][619]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.06.16-15.25.51:453][619]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Target  and  EdGraphPin_30569 : Actor Reference is not compatible with Reference.
+[2016.06.16-15.25.51:453][619]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Set Weapon 
+[2016.06.16-15.25.51:453][619]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GameMode" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get GameMode 
+[2016.06.16-15.25.51:453][619]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Weapon  and  Target : Reference is not compatible with Actor Reference.
+[2016.06.16-15.25.51:453][619]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.25.51:453][619]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Health" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Health 
+[2016.06.16-15.25.51:453][619]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Target  and  Weapon : Actor Reference is not compatible with Reference.
+[2016.06.16-15.25.51:453][619]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "isDead" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get isDead 
+[2016.06.16-15.25.51:453][619]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.25.51:453][619]BlueprintEditorCompileResults:Warning: Warning [1410.54] Compile of TSSBP_HeroCharacter failed. 1 Fatal Issue(s) 13 Warning(s) [in 189 ms]
+[2016.06.16-15.25.52:488][739]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.06.16-15.25.58:517][427]BlueprintLog: New page: Compile TSSBP_HeroCharacter
+[2016.06.16-15.25.58:561][427]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "PlayerSpawnTransform" in 'TSSBP_HeroCharacter'.
+Make sure 'TSSBP_HeroCharacter' has been compiled for  Set PlayerSpawnTransform 
+[2016.06.16-15.25.58:561][427]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "GameMode" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Set GameMode 
+[2016.06.16-15.25.58:561][427]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.06.16-15.25.58:561][427]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.06.16-15.25.58:561][427]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Target  and  EdGraphPin_30569 : Actor Reference is not compatible with Reference.
+[2016.06.16-15.25.58:562][427]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Set Weapon 
+[2016.06.16-15.25.58:562][427]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "GameMode" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get GameMode 
+[2016.06.16-15.25.58:562][427]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Weapon  and  Target : Reference is not compatible with Actor Reference.
+[2016.06.16-15.25.58:562][427]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.25.58:562][427]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "Health" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Health 
+[2016.06.16-15.25.58:562][427]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Target  and  Weapon : Actor Reference is not compatible with Reference.
+[2016.06.16-15.25.58:562][427]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "isDead" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get isDead 
+[2016.06.16-15.25.58:563][427]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.25.58:564][427]LogBlueprint:Error: [compiler TSSBP_HeroCharacter] Error Node  Bad cast node  has an invalid target type, please delete and recreate it
+[2016.06.16-15.25.58:565][427]LogBlueprint:Error: [compiler TSSBP_HeroCharacter] Error Node  Bad cast node  has an invalid target class
+[2016.06.16-15.25.58:709][427]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning [1417.79] Compile of TSSBP_HeroCharacter failed. 2 Fatal Issue(s) 13 Warning(s) [in 191 ms]
+[2016.06.16-15.25.58:709][427]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "PlayerSpawnTransform" in 'TSSBP_HeroCharacter'.
+Make sure 'TSSBP_HeroCharacter' has been compiled for  Set PlayerSpawnTransform 
+[2016.06.16-15.25.58:709][427]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GameMode" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Set GameMode 
+[2016.06.16-15.25.58:709][427]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.06.16-15.25.58:709][427]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.06.16-15.25.58:709][427]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Target  and  EdGraphPin_30569 : Actor Reference is not compatible with Reference.
+[2016.06.16-15.25.58:709][427]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Set Weapon 
+[2016.06.16-15.25.58:709][427]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GameMode" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get GameMode 
+[2016.06.16-15.25.58:709][427]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Weapon  and  Target : Reference is not compatible with Actor Reference.
+[2016.06.16-15.25.58:710][427]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.25.58:710][427]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Health" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Health 
+[2016.06.16-15.25.58:710][427]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Target  and  Weapon : Actor Reference is not compatible with Reference.
+[2016.06.16-15.25.58:710][427]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "isDead" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get isDead 
+[2016.06.16-15.25.58:710][427]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.25.58:710][427]BlueprintEditorCompileResults:Error: Error Node  Bad cast node  has an invalid target type, please delete and recreate it
+[2016.06.16-15.25.58:710][427]BlueprintEditorCompileResults:Error: Error Node  Bad cast node  has an invalid target class
+[2016.06.16-15.25.58:710][427]BlueprintEditorCompileResults:Warning: Warning [1417.79] Compile of TSSBP_HeroCharacter failed. 2 Fatal Issue(s) 13 Warning(s) [in 191 ms]
+[2016.06.16-15.26.28:963][994]BlueprintLog: New page: Compile TSSBP_HeroCharacter
+[2016.06.16-15.26.28:994][994]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "GameMode" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get GameMode 
+[2016.06.16-15.26.28:994][994]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Weapon  and  Target : Reference is not compatible with Actor Reference.
+[2016.06.16-15.26.28:994][994]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.26.28:994][994]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "Health" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Health 
+[2016.06.16-15.26.28:994][994]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Can't connect pins  Target  and  Weapon : Actor Reference is not compatible with Reference.
+[2016.06.16-15.26.28:994][994]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "isDead" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get isDead 
+[2016.06.16-15.26.28:994][994]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.26.29:071][994]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning [1448.15] Compile of TSSBP_HeroCharacter successful, but with 7 Warning(s) [in 108 ms]
+[2016.06.16-15.26.29:071][994]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "GameMode" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get GameMode 
+[2016.06.16-15.26.29:071][994]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Weapon  and  Target : Reference is not compatible with Actor Reference.
+[2016.06.16-15.26.29:072][994]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.26.29:072][994]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Health" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Health 
+[2016.06.16-15.26.29:072][994]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Target  and  Weapon : Actor Reference is not compatible with Reference.
+[2016.06.16-15.26.29:072][994]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "isDead" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get isDead 
+[2016.06.16-15.26.29:072][994]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.26.29:072][994]BlueprintEditorCompileResults:Warning: Warning [1448.15] Compile of TSSBP_HeroCharacter successful, but with 7 Warning(s) [in 108 ms]
+[2016.06.16-15.26.42:582][591]BlueprintLog: New page: Compile TSSBP_HeroCharacter
+[2016.06.16-15.26.42:604][591]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.26.42:679][591]LogBlueprint:Warning: [compiler TSSBP_HeroCharacter] Warning [1461.76] Compile of TSSBP_HeroCharacter successful, but with 1 Warning(s) [in 96 ms]
+[2016.06.16-15.26.42:679][591]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Weapon" in 'TSSBP_HeroCharacter_C'.
+Make sure 'TSSBP_HeroCharacter_C' has been compiled for  Get Weapon 
+[2016.06.16-15.26.42:679][591]BlueprintEditorCompileResults:Warning: Warning [1461.76] Compile of TSSBP_HeroCharacter successful, but with 1 Warning(s) [in 96 ms]
+[2016.06.16-15.26.47:091][111]BlueprintLog: New page: Compile TSSBP_HeroCharacter
+[2016.06.16-15.26.47:189][111]BlueprintEditorCompileResults: Info [1466.27] Compile of TSSBP_HeroCharacter successful! [in 98 ms]
+[2016.06.16-15.26.50:926][546]LogSavePackage: Save=58.28ms
+[2016.06.16-15.26.50:926][546]LogSavePackage: Moving 'D:/Unreal4Projects_LJS/LJSPR_Study/Saved/TSSBP_HeroCharacterFA42F3A5446480D9A01950ACE18B334C.tmp' to 'D:/Unreal4Projects_LJS/LJSPR_Study/Content/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_HeroCharacter.uasset'
+[2016.06.16-15.26.50:928][546]LogSavePackage: Total save time: 60.69ms
+[2016.06.16-15.26.50:928][546]LogSavePackage:Display: Finished SavePackage D:/Unreal4Projects_LJS/LJSPR_Study/Content/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_HeroCharacter.uasset
+[2016.06.16-15.27.22:791][312]BlueprintLog: New page: Compile TSSBP_HeroCharacter
+[2016.06.16-15.27.22:867][312]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.16-15.27.22:995][312]BlueprintEditorCompileResults: Info [1502.08] Compile of TSSBP_HeroCharacter successful! [in 204 ms]
+[2016.06.16-15.27.23:461][352]LogSavePackage: Save=63.83ms
+[2016.06.16-15.27.23:461][352]LogSavePackage: Moving 'D:/Unreal4Projects_LJS/LJSPR_Study/Saved/TSSBP_HeroCharacterB456889C4FBC20950C1CDFA283C24717.tmp' to 'D:/Unreal4Projects_LJS/LJSPR_Study/Content/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_HeroCharacter.uasset'
+[2016.06.16-15.27.23:463][352]LogSavePackage: Total save time: 68.06ms
+[2016.06.16-15.27.23:463][352]LogSavePackage:Display: Finished SavePackage D:/Unreal4Projects_LJS/LJSPR_Study/Content/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_HeroCharacter.uasset
+[2016.06.16-15.27.34:547][671]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.06.16-15.27.39:129][211]Cmd: UpdateLandscapeSetup
+[2016.06.16-15.27.49:869][488]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.16-15.27.49:869][488]PIE: New page: PIE session: TSSL_Arena (Jun 17, 2016, 9:27:49 AM)
+[2016.06.16-15.27.49:869][488]LogPlayLevel: Creating play world package: /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena
+[2016.06.16-15.27.49:875][488]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006286s)
+[2016.06.16-15.27.49:876][488]LogAIModule: Creating AISystem for world TSSL_Arena
+[2016.06.16-15.27.49:876][488]LogPlayLevel: PIE: World Init took: (0.000585s)
+[2016.06.16-15.27.49:876][488]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LJS_Studies/TwinStickShooter/TSS_Levels/TSSL_Arena.TSSL_Arena to /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena.TSSL_Arena (0.007068s)
+[2016.06.16-15.27.49:876][488]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.16-15.27.49:924][488]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.16-15.27.49:952][488]LogInit: FAudioDevice initialized.
+[2016.06.16-15.27.49:984][488]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.16-15.27.49:985][488]LogWorld: Bringing World /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena.TSSL_Arena up for play (max tick rate 0) at 2016.06.17-00.27.49
+[2016.06.16-15.27.49:986][488]LogWorld: Bringing up level for play took: 0.001248
+[2016.06.16-15.27.49:988][488]PIE: Info Play in editor start time for /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena -0.584
+[2016.06.16-15.27.56:647][270]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.16-15.27.56:647][270]PIE: New page: PIE session: TSSL_Arena (Jun 17, 2016, 9:27:56 AM)
+[2016.06.16-15.27.56:647][270]LogPlayLevel: Creating play world package: /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena
+[2016.06.16-15.27.56:653][270]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005985s)
+[2016.06.16-15.27.56:654][270]LogAIModule: Creating AISystem for world TSSL_Arena
+[2016.06.16-15.27.56:654][270]LogPlayLevel: PIE: World Init took: (0.000501s)
+[2016.06.16-15.27.56:654][270]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LJS_Studies/TwinStickShooter/TSS_Levels/TSSL_Arena.TSSL_Arena to /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena.TSSL_Arena (0.006684s)
+[2016.06.16-15.27.56:701][270]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.16-15.27.56:726][270]LogInit: FAudioDevice initialized.
+[2016.06.16-15.27.56:759][270]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.16-15.27.56:761][270]LogWorld: Bringing World /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena.TSSL_Arena up for play (max tick rate 0) at 2016.06.17-00.27.56
+[2016.06.16-15.27.56:761][270]LogWorld: Bringing up level for play took: 0.001111
+[2016.06.16-15.27.56:763][270]PIE: Info Play in editor start time for /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena 0.192
+[2016.06.16-15.28.26:436][784]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.16-15.28.28:615][ 34]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.06.16-15.28.37:068][ 33]BlueprintLog: New page: Compile TSSBP_HeroCharacter
+[2016.06.16-15.28.37:094][ 33]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.06.16-15.28.37:230][ 33]BlueprintEditorCompileResults: Info [1576.31] Compile of TSSBP_HeroCharacter successful! [in 161 ms]
+[2016.06.16-15.28.37:623][ 61]LogSavePackage: Save=67.75ms
+[2016.06.16-15.28.37:623][ 61]LogSavePackage: Moving 'D:/Unreal4Projects_LJS/LJSPR_Study/Saved/TSSBP_HeroCharacter7FED59804CAEC9805DC4A489670C402F.tmp' to 'D:/Unreal4Projects_LJS/LJSPR_Study/Content/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_HeroCharacter.uasset'
+[2016.06.16-15.28.37:625][ 61]LogSavePackage: Total save time: 71.07ms
+[2016.06.16-15.28.37:625][ 61]LogSavePackage:Display: Finished SavePackage D:/Unreal4Projects_LJS/LJSPR_Study/Content/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_HeroCharacter.uasset
+[2016.06.16-15.28.38:633][179]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.16-15.28.38:633][179]PIE: New page: PIE session: TSSL_Arena (Jun 17, 2016, 9:28:38 AM)
+[2016.06.16-15.28.38:633][179]LogPlayLevel: Creating play world package: /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena
+[2016.06.16-15.28.38:639][179]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005970s)
+[2016.06.16-15.28.38:640][179]LogAIModule: Creating AISystem for world TSSL_Arena
+[2016.06.16-15.28.38:640][179]LogPlayLevel: PIE: World Init took: (0.000541s)
+[2016.06.16-15.28.38:640][179]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LJS_Studies/TwinStickShooter/TSS_Levels/TSSL_Arena.TSSL_Arena to /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena.TSSL_Arena (0.006704s)
+[2016.06.16-15.28.38:640][179]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.16-15.28.38:692][179]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.16-15.28.38:717][179]LogInit: FAudioDevice initialized.
+[2016.06.16-15.28.38:753][179]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.16-15.28.38:755][179]LogWorld: Bringing World /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena.TSSL_Arena up for play (max tick rate 0) at 2016.06.17-00.28.38
+[2016.06.16-15.28.38:755][179]LogWorld: Bringing up level for play took: 0.001060
+[2016.06.16-15.28.38:757][179]PIE: Info Play in editor start time for /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena 0.186
+[2016.06.16-15.30.06:092][382]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.16-15.30.06:563][438]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.06.16-15.30.07:509][550]BlueprintLog: New page: Compile TSSBP_HeroCharacter
+[2016.06.16-15.30.07:533][550]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.06.16-15.30.07:607][550]BlueprintEditorCompileResults: Info [1666.69] Compile of TSSBP_HeroCharacter successful! [in 97 ms]
+[2016.06.16-15.30.08:064][586]LogSavePackage: Save=65.86ms
+[2016.06.16-15.30.08:064][586]LogSavePackage: Moving 'D:/Unreal4Projects_LJS/LJSPR_Study/Saved/TSSBP_HeroCharacter71A88ADC469D7EAAEC1F57B14E6FBCDC.tmp' to 'D:/Unreal4Projects_LJS/LJSPR_Study/Content/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_HeroCharacter.uasset'
+[2016.06.16-15.30.08:067][586]LogSavePackage: Total save time: 69.11ms
+[2016.06.16-15.30.08:067][586]LogSavePackage:Display: Finished SavePackage D:/Unreal4Projects_LJS/LJSPR_Study/Content/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_HeroCharacter.uasset
+[2016.06.16-15.30.09:414][745]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.16-15.30.09:415][745]PIE: New page: PIE session: TSSL_Arena (Jun 17, 2016, 9:30:09 AM)
+[2016.06.16-15.30.09:415][745]LogPlayLevel: Creating play world package: /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena
+[2016.06.16-15.30.09:421][745]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005988s)
+[2016.06.16-15.30.09:421][745]LogAIModule: Creating AISystem for world TSSL_Arena
+[2016.06.16-15.30.09:421][745]LogPlayLevel: PIE: World Init took: (0.000536s)
+[2016.06.16-15.30.09:421][745]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LJS_Studies/TwinStickShooter/TSS_Levels/TSSL_Arena.TSSL_Arena to /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena.TSSL_Arena (0.006784s)
+[2016.06.16-15.30.09:421][745]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.16-15.30.09:470][745]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.16-15.30.09:496][745]LogInit: FAudioDevice initialized.
+[2016.06.16-15.30.09:531][745]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.16-15.30.09:533][745]LogWorld: Bringing World /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena.TSSL_Arena up for play (max tick rate 0) at 2016.06.17-00.30.09
+[2016.06.16-15.30.09:533][745]LogWorld: Bringing up level for play took: 0.001149
+[2016.06.16-15.30.09:535][745]PIE: Info Play in editor start time for /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena 0.964
+[2016.06.16-15.31.04:513][312]BlueprintLog: New page: Compile TSSBP_HeroCharacter
+[2016.06.16-15.31.04:538][312]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.16-15.31.04:612][312]BlueprintEditorCompileResults: Info [1723.70] Compile of TSSBP_HeroCharacter successful! [in 99 ms]
+[2016.06.16-15.31.05:109][352]LogSavePackage: Save=66.24ms
+[2016.06.16-15.31.05:110][352]LogSavePackage: Moving 'D:/Unreal4Projects_LJS/LJSPR_Study/Saved/TSSBP_HeroCharacter3B30345D42A5668337D1EBB34F0A92E6.tmp' to 'D:/Unreal4Projects_LJS/LJSPR_Study/Content/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_HeroCharacter.uasset'
+[2016.06.16-15.31.05:112][352]LogSavePackage: Total save time: 69.60ms
+[2016.06.16-15.31.05:112][352]LogSavePackage:Display: Finished SavePackage D:/Unreal4Projects_LJS/LJSPR_Study/Content/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_HeroCharacter.uasset
+[2016.06.16-15.31.06:043][460]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.16-15.31.06:043][460]PIE: New page: PIE session: TSSL_Arena (Jun 17, 2016, 9:31:06 AM)
+[2016.06.16-15.31.06:043][460]LogPlayLevel: Creating play world package: /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena
+[2016.06.16-15.31.06:049][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006316s)
+[2016.06.16-15.31.06:050][460]LogAIModule: Creating AISystem for world TSSL_Arena
+[2016.06.16-15.31.06:050][460]LogPlayLevel: PIE: World Init took: (0.000515s)
+[2016.06.16-15.31.06:050][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LJS_Studies/TwinStickShooter/TSS_Levels/TSSL_Arena.TSSL_Arena to /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena.TSSL_Arena (0.007025s)
+[2016.06.16-15.31.06:050][460]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.16-15.31.06:099][460]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.16-15.31.06:125][460]LogInit: FAudioDevice initialized.
+[2016.06.16-15.31.06:160][460]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.16-15.31.06:162][460]LogWorld: Bringing World /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena.TSSL_Arena up for play (max tick rate 0) at 2016.06.17-00.31.06
+[2016.06.16-15.31.06:162][460]LogWorld: Bringing up level for play took: 0.001335
+[2016.06.16-15.31.06:165][460]PIE: Info Play in editor start time for /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena -0.407
+[2016.06.16-15.32.26:620][ 18]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.16-15.32.26:712][ 18]LogSavePackage: Save=70.92ms
+[2016.06.16-15.32.26:712][ 18]LogSavePackage: Moving 'D:/Unreal4Projects_LJS/LJSPR_Study/Saved/TSSL_Arena_Auto1846F127541483AB1873FA1B61B7B396A.tmp' to 'D:/Unreal4Projects_LJS/LJSPR_Study/Saved/Autosaves/Game/LJS_Studies/TwinStickShooter/TSS_Levels/TSSL_Arena_Auto1.umap'
+[2016.06.16-15.32.26:714][ 18]LogSavePackage: Total save time: 75.12ms
+[2016.06.16-15.32.26:714][ 18]LogSavePackage:Display: Finished SavePackage D:/Unreal4Projects_LJS/LJSPR_Study/Saved/Autosaves/Game/LJS_Studies/TwinStickShooter/TSS_Levels/TSSL_Arena_Auto1.umap
+[2016.06.16-15.32.26:715][ 18]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LJS_Studies/TwinStickShooter/TSS_Levels/TSSL_Arena' took 0.095
+[2016.06.16-15.32.26:715][ 18]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.095
+[2016.06.16-15.32.26:739][ 18]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode] ([1] browsable assets)...
+[2016.06.16-15.32.26:739][ 18]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode]
+[2016.06.16-15.32.26:750][ 18]LogSavePackage: Save=8.08ms
+[2016.06.16-15.32.26:750][ 18]LogSavePackage: Moving 'D:/Unreal4Projects_LJS/LJSPR_Study/Saved/ThirdPersonGameMode_Auto10F89126C463AA736C5458E995CDB6B4E.tmp' to 'D:/Unreal4Projects_LJS/LJSPR_Study/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode_Auto1.uasset'
+[2016.06.16-15.32.26:751][ 18]LogSavePackage: Total save time: 10.96ms
+[2016.06.16-15.32.26:751][ 18]LogSavePackage:Display: Finished SavePackage D:/Unreal4Projects_LJS/LJSPR_Study/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode_Auto1.uasset
+[2016.06.16-15.32.26:758][ 18]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_HeroCharacter] ([1] browsable assets)...
+[2016.06.16-15.32.26:773][ 18]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_HeroCharacter.TSSBP_HeroCharacter]
+[2016.06.16-15.32.26:773][ 18]OBJ SavePackage: Finished generating thumbnails for package [/Game/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_HeroCharacter]
+[2016.06.16-15.32.26:845][ 18]LogSavePackage: Save=68.17ms
+[2016.06.16-15.32.26:845][ 18]LogSavePackage: Moving 'D:/Unreal4Projects_LJS/LJSPR_Study/Saved/TSSBP_HeroCharacter_Auto1983124BF45862C76AB04CE900060DC6F.tmp' to 'D:/Unreal4Projects_LJS/LJSPR_Study/Saved/Autosaves/Game/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_HeroCharacter_Auto1.uasset'
+[2016.06.16-15.32.26:846][ 18]LogSavePackage: Total save time: 71.34ms
+[2016.06.16-15.32.26:846][ 18]LogSavePackage:Display: Finished SavePackage D:/Unreal4Projects_LJS/LJSPR_Study/Saved/Autosaves/Game/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_HeroCharacter_Auto1.uasset
+[2016.06.16-15.32.26:846][ 18]LogFileHelpers: Auto-saving content packages took 0.129
+[2016.06.16-15.32.32:248][661]BlueprintLog: New page: Compile TSSBP_HeroCharacter
+[2016.06.16-15.32.32:273][661]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.16-15.32.32:345][661]BlueprintEditorCompileResults: Info [1811.43] Compile of TSSBP_HeroCharacter successful! [in 96 ms]
+[2016.06.16-15.32.32:752][694]LogSavePackage: Save=69.01ms
+[2016.06.16-15.32.32:752][694]LogSavePackage: Moving 'D:/Unreal4Projects_LJS/LJSPR_Study/Saved/TSSBP_HeroCharacter7CEBD8794923F509AEE46CB85EF5D0D5.tmp' to 'D:/Unreal4Projects_LJS/LJSPR_Study/Content/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_HeroCharacter.uasset'
+[2016.06.16-15.32.32:755][694]LogSavePackage: Total save time: 72.46ms
+[2016.06.16-15.32.32:755][694]LogSavePackage:Display: Finished SavePackage D:/Unreal4Projects_LJS/LJSPR_Study/Content/LJS_Studies/TwinStickShooter/TSS_Blueprints/TSSBP_HeroCharacter.uasset
+[2016.06.16-15.32.34:485][897]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.06.16-15.32.34:485][897]PIE: New page: PIE session: TSSL_Arena (Jun 17, 2016, 9:32:34 AM)
+[2016.06.16-15.32.34:485][897]LogPlayLevel: Creating play world package: /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena
+[2016.06.16-15.32.34:491][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006036s)
+[2016.06.16-15.32.34:492][897]LogAIModule: Creating AISystem for world TSSL_Arena
+[2016.06.16-15.32.34:492][897]LogPlayLevel: PIE: World Init took: (0.000541s)
+[2016.06.16-15.32.34:492][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LJS_Studies/TwinStickShooter/TSS_Levels/TSSL_Arena.TSSL_Arena to /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena.TSSL_Arena (0.006852s)
+[2016.06.16-15.32.34:492][897]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.06.16-15.32.34:543][897]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.06.16-15.32.34:569][897]LogInit: FAudioDevice initialized.
+[2016.06.16-15.32.34:599][897]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.06.16-15.32.34:601][897]LogWorld: Bringing World /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena.TSSL_Arena up for play (max tick rate 0) at 2016.06.17-00.32.34
+[2016.06.16-15.32.34:601][897]LogWorld: Bringing up level for play took: 0.001353
+[2016.06.16-15.32.34:603][897]PIE: Info Play in editor start time for /Game/LJS_Studies/TwinStickShooter/TSS_Levels/UEDPIE_0_TSSL_Arena 0.032
+[2016.06.16-15.32.57:720][624]LogSavePackage: Save=73.88ms
+[2016.06.16-15.32.57:720][624]LogSavePackage: Moving 'D:/Unreal4Projects_LJS/LJSPR_Study/Saved/TSSL_ArenaB7B410A342DCF761AA231B8173E1F094.tmp' to 'D:/Unreal4Projects_LJS/LJSPR_Study/Content/LJS_Studies/TwinStickShooter/TSS_Levels/TSSL_Arena.umap'
+[2016.06.16-15.32.57:723][624]LogSavePackage: Total save time: 77.45ms
+[2016.06.16-15.32.57:723][624]LogSavePackage:Display: Finished SavePackage D:/Unreal4Projects_LJS/LJSPR_Study/Content/LJS_Studies/TwinStickShooter/TSS_Levels/TSSL_Arena.umap
+[2016.06.16-15.32.57:750][624]LogFileHelpers: Saving map 'TSSL_Arena' took 0.238
+[2016.06.16-15.32.57:755][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode" FILE="D:/Unreal4Projects_LJS/LJSPR_Study/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset" SILENT=true
+[2016.06.16-15.32.57:765][624]LogSavePackage: Save=7.95ms
+[2016.06.16-15.32.57:765][624]LogSavePackage: Moving 'D:/Unreal4Projects_LJS/LJSPR_Study/Saved/ThirdPersonGameModeDD2DF40348426C79874F8DA8E8BEEDFF.tmp' to 'D:/Unreal4Projects_LJS/LJSPR_Study/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset'
+[2016.06.16-15.32.57:768][624]LogSavePackage: Total save time: 11.32ms
+[2016.06.16-15.32.57:768][624]LogSavePackage:Display: Finished SavePackage D:/Unreal4Projects_LJS/LJSPR_Study/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset
+[2016.06.16-15.32.59:726][834]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.06.16-15.32.59:728][834]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.06.16-15.32.59:978][834]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.06.16-15.32.59:980][834]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.06.16-15.33.00:213][835]Cmd: QUIT_EDITOR
+[2016.06.16-15.33.01:134][835]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.06.16-15.33.01:135][835]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.06.16-15.33.01:177][835]LogExit: Preparing to exit.
+[2016.06.16-15.33.02:002][835]LogExit: Editor shut down
+[2016.06.16-15.33.02:003][835]LogExit: Transaction tracking system shut down
+[2016.06.16-15.33.02:152][835]LogObj: Freed 0b from 0 cluster array pools.
+[2016.06.16-15.33.02:152][835]LogExit: Object subsystem successfully closed.
+[2016.06.16-15.33.02:170][835]LogD3D11RHI: Shutdown
+[2016.06.16-15.33.02:170][835]LogD3D11RHI: CleanupD3DDevice
+[2016.06.16-15.33.02:244][835]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.06.16-15.33.02:317][835]LogDerivedDataCache: Shutdown
+[2016.06.16-15.33.02:317][835]LogModuleManager: Shutting down and abandoning module BlueprintGraph (208)
+[2016.06.16-15.33.02:317][835]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (207)
+[2016.06.16-15.33.02:317][835]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (206)
+[2016.06.16-15.33.02:317][835]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (205)
+[2016.06.16-15.33.02:317][835]LogModuleManager: Shutting down and abandoning module CrashTracker (204)
+[2016.06.16-15.33.02:317][835]LogModuleManager: Shutting down and abandoning module WorldBrowser (203)
+[2016.06.16-15.33.02:317][835]LogModuleManager: Shutting down and abandoning module SceneOutliner (202)
+[2016.06.16-15.33.02:317][835]LogModuleManager: Shutting down and abandoning module SuperSearch (201)
+[2016.06.16-15.33.02:317][835]LogModuleManager: Shutting down and abandoning module WidgetCarousel (200)
+[2016.06.16-15.33.02:317][835]LogModuleManager: Shutting down and abandoning module AddContentDialog (199)
+[2016.06.16-15.33.02:320][835]LogModuleManager: Shutting down and abandoning module GameplayTags (198)
+[2016.06.16-15.33.02:320][835]LogModuleManager: Shutting down and abandoning module EditorWidgets (197)
+[2016.06.16-15.33.02:320][835]LogModuleManager: Shutting down and abandoning module CollectionManager (196)
+[2016.06.16-15.33.02:320][835]LogModuleManager: Shutting down and abandoning module StatsViewer (195)
+[2016.06.16-15.33.02:320][835]LogModuleManager: Shutting down and abandoning module FoliageEdit (194)
+[2016.06.16-15.33.02:320][835]LogModuleManager: Shutting down and abandoning module LandscapeEditor (193)
+[2016.06.16-15.33.02:321][835]LogModuleManager: Shutting down and abandoning module ActorPickerMode (192)
+[2016.06.16-15.33.02:321][835]LogModuleManager: Shutting down and abandoning module GeometryMode (191)
+[2016.06.16-15.33.02:321][835]LogModuleManager: Shutting down and abandoning module TextureAlignMode (190)
+[2016.06.16-15.33.02:321][835]LogModuleManager: Shutting down and abandoning module BspMode (189)
+[2016.06.16-15.33.02:321][835]LogModuleManager: Shutting down and abandoning module PlacementMode (188)
+[2016.06.16-15.33.02:321][835]LogModuleManager: Shutting down and abandoning module AutomationWorker (187)
+[2016.06.16-15.33.02:321][835]LogModuleManager: Shutting down and abandoning module CharacterAI (186)
+[2016.06.16-15.33.02:321][835]LogModuleManager: Shutting down and abandoning module SmartSnapping (185)
+[2016.06.16-15.33.02:321][835]LogModuleManager: Shutting down and abandoning module ViewportSnapping (184)
+[2016.06.16-15.33.02:321][835]LogModuleManager: Shutting down and abandoning module LogVisualizer (183)
+[2016.06.16-15.33.02:321][835]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (182)
+[2016.06.16-15.33.02:321][835]LogModuleManager: Shutting down and abandoning module IntroTutorials (181)
+[2016.06.16-15.33.02:321][835]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (180)
+[2016.06.16-15.33.02:321][835]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (179)
+[2016.06.16-15.33.02:321][835]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (178)
+[2016.06.16-15.33.02:321][835]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (177)
+[2016.06.16-15.33.03:049][835]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (176)
+[2016.06.16-15.33.03:049][835]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (175)
+[2016.06.16-15.33.03:049][835]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (174)
+[2016.06.16-15.33.03:049][835]LogModuleManager: Shutting down and abandoning module MergeActors (173)
+[2016.06.16-15.33.03:049][835]LogModuleManager: Shutting down and abandoning module SizeMap (172)
+[2016.06.16-15.33.03:049][835]LogModuleManager: Shutting down and abandoning module TreeMap (171)
+[2016.06.16-15.33.03:049][835]LogModuleManager: Shutting down and abandoning module ReferenceViewer (170)
+[2016.06.16-15.33.03:049][835]LogModuleManager: Shutting down and abandoning module LocalizationService (169)
+[2016.06.16-15.33.03:049][835]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (168)
+[2016.06.16-15.33.03:049][835]LogModuleManager: Shutting down and abandoning module HardwareTargeting (167)
+[2016.06.16-15.33.03:049][835]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (166)
+[2016.06.16-15.33.03:049][835]LogModuleManager: Shutting down and abandoning module UndoHistory (165)
+[2016.06.16-15.33.03:049][835]LogModuleManager: Shutting down and abandoning module UserFeedback (164)
+[2016.06.16-15.33.03:049][835]LogModuleManager: Shutting down and abandoning module XmlParser (163)
+[2016.06.16-15.33.03:049][835]LogModuleManager: Shutting down and abandoning module Blutility (162)
+[2016.06.16-15.33.03:049][835]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (161)
+[2016.06.16-15.33.03:049][835]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (160)
+[2016.06.16-15.33.03:050][835]LogModuleManager: Shutting down and abandoning module InputBindingEditor (159)
+[2016.06.16-15.33.03:050][835]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (158)
+[2016.06.16-15.33.03:050][835]LogModuleManager: Shutting down and abandoning module SettingsEditor (157)
+[2016.06.16-15.33.03:050][835]LogModuleManager: Shutting down and abandoning module ProjectLauncher (156)
+[2016.06.16-15.33.03:050][835]LogModuleManager: Shutting down and abandoning module SessionFrontend (155)
+[2016.06.16-15.33.03:050][835]LogModuleManager: Shutting down and abandoning module ProfilerClient (154)
+[2016.06.16-15.33.03:050][835]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (153)
+[2016.06.16-15.33.03:050][835]LogModuleManager: Shutting down and abandoning module DeviceManager (152)
+[2016.06.16-15.33.03:094][835]LogModuleManager: Shutting down and abandoning module AutomationController (151)
+[2016.06.16-15.33.03:094][835]LogModuleManager: Shutting down and abandoning module AutomationWindow (150)
+[2016.06.16-15.33.03:094][835]LogModuleManager: Shutting down and abandoning module Layers (149)
+[2016.06.16-15.33.03:094][835]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (148)
+[2016.06.16-15.33.03:094][835]LogModuleManager: Shutting down and abandoning module DetailCustomizations (147)
+[2016.06.16-15.33.03:094][835]LogModuleManager: Shutting down and abandoning module PackagesDialog (146)
+[2016.06.16-15.33.03:094][835]LogModuleManager: Shutting down and abandoning module Persona (145)
+[2016.06.16-15.33.03:094][835]LogModuleManager: Shutting down and abandoning module Kismet (144)
+[2016.06.16-15.33.03:094][835]LogModuleManager: Shutting down and abandoning module GraphEditor (143)
+[2016.06.16-15.33.03:094][835]LogModuleManager: Shutting down and abandoning module ClassViewer (142)
+[2016.06.16-15.33.03:095][835]LogModuleManager: Shutting down and abandoning module Toolbox (141)
+[2016.06.16-15.33.03:095][835]LogModuleManager: Shutting down and abandoning module ModuleUI (140)
+[2016.06.16-15.33.03:095][835]LogModuleManager: Shutting down and abandoning module MovieSceneTools (139)
+[2016.06.16-15.33.03:095][835]LogModuleManager: Shutting down and abandoning module OutputLog (138)
+[2016.06.16-15.33.03:095][835]LogModuleManager: Shutting down and abandoning module GammaUI (137)
+[2016.06.16-15.33.03:095][835]LogModuleManager: Shutting down and abandoning module Documentation (136)
+[2016.06.16-15.33.03:095][835]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (135)
+[2016.06.16-15.33.03:095][835]LogModuleManager: Shutting down and abandoning module AnalyticsET (134)
+[2016.06.16-15.33.03:095][835]LogModuleManager: Shutting down and abandoning module Analytics (133)
+[2016.06.16-15.33.03:095][835]LogModuleManager: Shutting down and abandoning module PortalServices (132)
+[2016.06.16-15.33.03:095][835]LogModuleManager: Shutting down and abandoning module PortalRpc (131)
+[2016.06.16-15.33.03:095][835]LogModuleManager: Shutting down and abandoning module MessagingRpc (130)
+[2016.06.16-15.33.03:095][835]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
+[2016.06.16-15.33.03:095][835]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
+[2016.06.16-15.33.03:095][835]LogModuleManager: Shutting down and abandoning module AIModule (127)
+[2016.06.16-15.33.03:095][835]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
+[2016.06.16-15.33.03:214][835]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
+[2016.06.16-15.33.03:214][835]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
+[2016.06.16-15.33.03:214][835]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2016.06.16-15.33.03:214][835]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2016.06.16-15.33.03:214][835]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2016.06.16-15.33.03:214][835]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2016.06.16-15.33.03:214][835]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2016.06.16-15.33.03:214][835]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
+[2016.06.16-15.33.03:214][835]LogModuleManager: Shutting down and abandoning module CableComponent (117)
+[2016.06.16-15.33.03:214][835]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
+[2016.06.16-15.33.03:214][835]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
+[2016.06.16-15.33.03:214][835]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
+[2016.06.16-15.33.03:214][835]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
+[2016.06.16-15.33.03:214][835]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
+[2016.06.16-15.33.03:214][835]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
+[2016.06.16-15.33.03:214][835]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
+[2016.06.16-15.33.03:214][835]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
+[2016.06.16-15.33.03:214][835]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
+[2016.06.16-15.33.03:214][835]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2016.06.16-15.33.03:214][835]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2016.06.16-15.33.03:215][835]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2016.06.16-15.33.03:215][835]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2016.06.16-15.33.03:215][835]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2016.06.16-15.33.03:215][835]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2016.06.16-15.33.03:215][835]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2016.06.16-15.33.03:215][835]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2016.06.16-15.33.03:215][835]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.06.16-15.33.03:215][835]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.06.16-15.33.03:215][835]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.06.16-15.33.03:216][835]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2016.06.16-15.33.03:217][835]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2016.06.16-15.33.03:299][835]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2016.06.16-15.33.03:299][835]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2016.06.16-15.33.03:300][835]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2016.06.16-15.33.03:401][835]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.06.16-15.33.03:401][835]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.06.16-15.33.03:401][835]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.06.16-15.33.03:401][835]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.06.16-15.33.03:401][835]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.06.16-15.33.03:401][835]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.06.16-15.33.03:401][835]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.06.16-15.33.03:401][835]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.06.16-15.33.03:401][835]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.06.16-15.33.03:401][835]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.06.16-15.33.03:401][835]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.06.16-15.33.03:401][835]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.06.16-15.33.03:401][835]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.06.16-15.33.03:401][835]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.06.16-15.33.03:401][835]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.06.16-15.33.03:401][835]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.06.16-15.33.03:401][835]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.06.16-15.33.03:401][835]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.06.16-15.33.03:401][835]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.06.16-15.33.03:401][835]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.06.16-15.33.03:401][835]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.06.16-15.33.03:401][835]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.06.16-15.33.03:401][835]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.06.16-15.33.03:405][835]LogDerivedDataCache: Shutdown
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.06.16-15.33.03:405][835]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.06.16-15.33.03:406][835]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.06.16-15.33.03:406][835]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.06.16-15.33.03:406][835]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.06.16-15.33.03:406][835]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.06.16-15.33.03:406][835]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.06.16-15.33.03:406][835]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.06.16-15.33.03:406][835]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.06.16-15.33.03:406][835]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.06.16-15.33.03:406][835]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.06.16-15.33.03:406][835]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.06.16-15.33.03:406][835]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.06.16-15.33.04:408][835]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.06.16-15.33.04:408][835]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.06.16-15.33.04:408][835]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.06.16-15.33.04:408][835]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.06.16-15.33.04:408][835]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.06.16-15.33.04:408][835]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.06.16-15.33.04:408][835]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.06.16-15.33.04:412][835]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.06.16-15.33.04:412][835]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.06.16-15.33.04:412][835]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.06.16-15.33.04:412][835]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.06.16-15.33.04:412][835]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.06.16-15.33.04:412][835]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.06.16-15.33.04:412][835]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.06.16-15.33.04:412][835]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.06.16-15.33.04:412][835]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.06.16-15.33.04:412][835]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.06.16-15.33.04:413][835]LogExit: Exiting.
+[2016.06.16-15.33.04:443][835]Log file closed, 06/17/16 00:33:04
